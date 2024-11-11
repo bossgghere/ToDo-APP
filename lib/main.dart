@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:todo/constants/colors.dart';
 import 'package:todo/screens/home.dart';
+import 'package:todo/screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +25,7 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Home();
+    // return Home();
+    return SplashScreen();
   }
 }

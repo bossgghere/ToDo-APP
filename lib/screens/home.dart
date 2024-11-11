@@ -103,7 +103,7 @@ class _HomeState extends State<Home> {
                           _addToDoItems(_todoController.text);
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: tdBlue,
+                          backgroundColor: Colors.blue,
                           minimumSize: Size(60, 60),
                           elevation: 10,
                         ),
@@ -181,7 +181,7 @@ class _HomeState extends State<Home> {
 
   AppBar _buildAppBar() {
     return AppBar(
-      backgroundColor: tdBGColor,
+      backgroundColor: Colors.blue,
       title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
